@@ -69,13 +69,5 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    public void onConfigurationChanged(Configuration newConfig) {
-        super.onConfigurationChanged(newConfig);
-        if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
-            //TODO: process new orientation
-            Toast.makeText(getApplicationContext(), "Config Changed!", Toast.LENGTH_LONG).show();
-        }
 
-    }
 }
